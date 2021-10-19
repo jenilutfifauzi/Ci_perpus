@@ -1,0 +1,163 @@
+#halaman {/* "id" dilambangkan dengan "#" */
+ 
+ -moz-border-radius: 1.5em; 
+ -webkit-border-radius:1.5em; 
+ -moz-box-shadow: 0 0 1em blue; 
+ -webkit-box-shadow: 0 0 1em #A2A19E;
+width: 986px;
+margin: 0 auto;/* agar dokumen berada ditengah */
+margin-top: 10px;
+padding: 0 auto;
+/*coba*/ border: #0000FF solid 1px;
+}
+
+
+#menu {
+width: 100%;
+height: auto;
+margin: 0;/* pengaturan sisi bagian luar */
+padding: 0;/* pengaturan sisi bagian dalam */
+/*coba border: #0000FF solid 1px;*/
+}
+
+#judul {
+    border-top-left-radius:     1.5em;
+border-top-right-radius:    1.5em;
+
+width: 100%;
+height: 200px;
+background-image:url(../images/header5.png);
+margin: 0;/* pengaturan sisi bagian luar */
+padding: 0;/* pengaturan sisi bagian dalam */
+/*coba border: red solid 1px;*/
+}
+#konten {
+width: 100%;
+margin: 0;
+padding: 0;
+/*coba border: #a9401b solid 1px;*/
+}
+
+.tengah{
+width: 99%;
+float: left;
+background-color: #ffffff;
+background-repeat:repeat-x;
+padding-left:1%;
+/*coba border: #00FFFF solid 1px;*/
+}
+
+.footer{
+    border-bottom-left-radius:     1.5em;
+border-bottom-right-radius:    1.5em;
+
+height: 50px;
+background-image:url(../images/b.png);
+clear: both;
+/*coba*/ border: #006600 solid 1px;
+}
+.judul {
+color: Red;
+padding: 10px 0 0 10px; /* penulisan untuk semua sisi: atas kanan bawah kiri */
+}
+.sub-judul {
+color: #ff0;
+padding: 0 10px 10px;
+}
+p {
+padding-left: 10px;/* penulisan untuk satu sisi saja */
+}
+
+#HDropdown-orange-classic {
+margin:0;
+padding:0px;
+list-style:none;
+background:url(../images/a.png) repeat-x top;
+height:28px;
+width:100%;
+/*border:solid 1px #c93300;*/
+border-width:1px 1px 1px 0;
+}
+#HDropdown-orange-classic li {
+display:inline;
+position:relative;
+float:left;
+}
+#HDropdown-orange-classic li a {
+display:block;
+float:left;
+height:29px;
+line-height:29px;
+padding:0 25px;
+text-decoration:none;
+color:#FFFFFF;
+font-weight:normal;
+font-size:12px;
+border-left:solid 1px #c93300;
+}
+#HDropdown-orange-classic li a:hover {
+color:black;
+background:#FFFFFF;
+}
+#HDropdown-orange-classic li ul {
+margin:0;
+padding:0 5px;
+line-height:none;
+position:absolute;
+top:29px;
+left:0;
+border:solid 1px #c93300;
+border-width:0px 1px 1px 1px;
+width:180px;
+display:none;
+background:cornflowerblue; /*kotak*/
+
+}
+#HDropdown-orange-classic li:hover ul {
+display:block;
+}
+#HDropdown-orange-classic li:hover a {
+color:#a9401b;
+background:cornflowerblue;
+}
+#HDropdown-orange-classic li ul li {
+display:block;
+border-bottom:solid 1px #dbdcd9;
+width:100%;
+background:url(../images/d_horizontal_red_classic_menu_arrow.gif) no-repeat 3px 12px;
+padding:0 0 0 10px;
+}
+#HDropdown-orange-classic li ul li:last-child {
+border-bottom:0px;
+}
+#HDropdown-orange-classic li ul a {
+border-width:0px;
+color:#ffffff;
+padding:0 5px 0 0;
+background-color:#FFFFCC;
+}
+#HDropdown-orange-classic li:hover ul li a {
+color:#ffffff;
+}
+#HDropdown-orange-classic li ul li a:hover {
+color:red;
+background-color:#FFFF99;
+}
+
+#halaman #konten .kanan form {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	background-color: #009933;
+	margin-top: 60px;
+	width:100px;
+	height:20px;
+}
+.mini_tulis {
+	float:right;
+}	
+.tabx {}
+.tabx th{ background:url(../images/a.png) repeat-x top; color:white; font-size: smaller; padding:7px 10px;}
+.tabx td{ background:#79C3FC; padding:2px 5px; font-size: smaller; color:#4A3C31; }
+.tabx tr.odd td{ background:white;  font-size: smaller;}
+.tabx tr:hover td{ background:#FFFF99; }
+

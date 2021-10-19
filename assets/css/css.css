@@ -1,0 +1,77 @@
+.tabel h2 {
+	background-image:url(../images/judulform.png);
+	height: 30px;
+	width: 290px;
+	padding-top: 6px;
+	padding-right: 4px;
+	padding-bottom: 4px;
+	padding-left: 6px;
+	
+	-moz-box-shadow: 5px 5px 5px #f9f760;
+	-webkit-box-shadow: 5px 5px 5px #f9f760; 
+	 box-shadow: 5px 5px 5px #f9f760;
+	}
+		
+
+.tabel h3 {
+	background-image: url(../image/label.png);
+	margin: 2px;
+	width: 300px;
+	height: 45px;
+	padding:5px;
+	background-repeat:no-repeat;
+	}
+.tabel input {
+	background-color: #FFFFCC;
+        height: 25px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	}
+.tabel select {
+	background-color: #FFFFCC;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	}
+        .guru {
+	background-color: #FFFFCC;
+	width: 180px;
+        -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	}
+.submit{
+       
+        text-decoration: none;
+	background-color: #FFFFCC;
+	height: 25px;
+	width: 70px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	}
+.submit:hover{
+    text-decoration: none;
+	background-color: #a0dc44;
+	height:25px;
+	width: 71px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+.pdf{
+       
+        text-decoration: none;
+	background: #FFFFCC url(../images/pdf.gif) no-repeat left center; background-size: 16px;
+	height: 25px;
+	width: 65px;
+        padding-left: 15px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	}
+.pdf:hover{
+    text-decoration: #a0dc44;
+	background: #a0dc44 url(../images/pdf.gif) no-repeat left center; background-size: 16px;
+	height:25px;
+	padding-left: 15px;
+	width: 66px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+     
